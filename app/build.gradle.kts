@@ -56,6 +56,7 @@ android {
 dependencies {
     // Jetpack Compose BOM (Updated)
     implementation (platform("androidx.compose:compose-bom:2024.03.00"))
+    androidTestImplementation(platform("androidx.compose:compose-bom:2024.03.00"))
 
     // Core AndroidX dependencies
     implementation("androidx.core:core-ktx:1.12.0")
